@@ -1,8 +1,8 @@
-This is a Next.js Template created by Purple Wren for internal use.
+<h1>This is a Next.js + Tailwind.css Template created by Purple Wren for internal use.</h1>
 
 ## Getting Started
 
-First, run the development server:
+To run development server, we are using Yarn:
 
 ```bash
 yarn dev
@@ -14,8 +14,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Firebase
 
-Create a .env.local file in the root add the following keys:
-Make sure to add individual Firebase project values.
+<h3>Create a .env.local file in the root and add the following keys:</h3>
+(make sure to add individual Firebase app config values)
 
 ```bash
 NEXT_PUBLIC_FIREBASE_KEY=
@@ -31,10 +31,12 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
 
 This template has Eslint and Prettier. Check scripts in package.json.
 
+## Fonts
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy a Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details
