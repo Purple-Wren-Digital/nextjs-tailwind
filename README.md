@@ -14,8 +14,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Firebase
 
-<h3>Create a .env.local file in the root and add the following keys:</h3>
-(make sure to add individual Firebase app config values)
+Create a ```.env.local``` file in the root and add the following keys:
+<h5>(make sure to add individual Firebase app config values)</h5>
 
 ```bash
 NEXT_PUBLIC_FIREBASE_KEY=
